@@ -18,9 +18,13 @@
     transition: none;
     width: 100vw;
     height: 100vh;
-    position: absolute;
+    position: fixed;
     overflow: hidden;
     z-index: -1;
+}
+
+.desktop {
+    /* display: none; */
 }
 
 .disabled {
@@ -30,7 +34,7 @@
 .background {
     transition: none;
     min-width: 100vw;
-    min-height: 100vh;
+    /* min-height: 100vh; */
 }
 
 .above-input {
@@ -260,6 +264,13 @@ a:hover::before, a:hover::after {
 }
 
 @media (min-width: 1024px) {
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        display: block;
+    }
     body {
         flex-direction: row;
         min-height: 100vh;
