@@ -21,6 +21,8 @@
     position: fixed;
     overflow: hidden;
     z-index: -1;
+    top: 0;
+    left: 0;
 }
 
 .desktop {
@@ -34,8 +36,6 @@
 .background {
     transition: none;
     min-width: 100vw;
-    top: 0;
-    left: 0;
     /* min-height: 100vh; */
 }
 
