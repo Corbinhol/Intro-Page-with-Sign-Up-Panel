@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <title>Learn to code by watching others!</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="background-wrapper">
+            <img src="./public/images/bg-intro-desktop.png" alt="background images" class="background">
+        </div>
+        
+        <div class="hero">
+            <h1><b>Learn to code by watching others</b></h1>
+            <p>
+                See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable. 
+            </p>
+        </div>
+        <div class="sign-in-sheet">
+            <h3><b>Limited Offer! Try it free 7 days</b><br>then $20/mo, thereafter.</h3>
+            <div class="panel" action="Sign-Up">
+                <div class="first-name input-container">
+                    <div class="above-input">
+                        <label for="first-name">First Name</label>
+                        <p id="first-error" class="error disabled">First name must not be empty!</p>
+                    </div>
+                    <div id="first-container" class="input-error-container">
+                        <input placeholder="John" id="first-name" type="text"> 
+                        <svg id="first-error-svg" class="error-svg disabled" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
+                    </div>
+                </div>
+                <div class="last-name input-container">
+                    <div class="above-input">
+                        <label for="last-name">Last Name</label>
+                        <p id="last-error" class="error disabled">Last name must not be empty!</p>
+                    </div>
+                    <div id="last-container" class="input-error-container">
+                        <input placeholder="Smith" id="last-name" type="text">
+                        <svg id="last-error-svg" class="error-svg disabled" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
+                    </div>
+                </div>
+                <div class="email-address input-container">
+                    <div class="above-input">
+                        <label for="email-address">Email Address</label>
+                        <p id="email-error" class="error disabled">Must be a valid email address!</p>
+                    </div>
+                    <div id="email-container" class="input-error-container">
+                        <input id="email" placeholder="email@example.com" type="text">
+                        <svg id="email-error-svg" class="error-svg disabled" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
+                    </div>
+                </div>
+                <div class="password input-container">
+                    <div class="above-input">
+                        <label for="password">Password</label>
+                        <p id="password-error" class="error disabled">Must be a valid password!</p>
+                    </div>
+                    <div id="password-container" class="input-error-container">
+                        <input id="password" type="password">
+                        <svg id="password-error-svg" class="error-svg disabled" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#FF7979" cx="12" cy="12" r="12"/><rect fill="#FFF" x="11" y="6" width="2" height="9" rx="1"/><rect fill="#FFF" x="11" y="17" width="2" height="2" rx="1"/></g></svg>
+                    </div>
+                    
+
+                </div>
+                <div class="bottom-section">
+                    <button class="button">CLAIM YOUR FREE TRIAL</button>
+                    <p class="terms">By clicking the button, you are agreeing to our <a href="#">Terms Of Service</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="attribution">
+            <p>Project design by <a href="https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1">Frontend Mentor</a><br>Developed by <a href="https://github.com/Corbinhol">Corbin Holcombe</a></p>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>
