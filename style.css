@@ -30,6 +30,7 @@
 .background {
     transition: none;
     min-width: 100vw;
+    min-height: 100vh;
 }
 
 .above-input {
