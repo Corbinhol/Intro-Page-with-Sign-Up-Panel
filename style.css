@@ -25,10 +25,6 @@
     left: 0;
 }
 
-.desktop {
-    /* display: none; */
-}
-
 .disabled {
     display: none !important;
 }
