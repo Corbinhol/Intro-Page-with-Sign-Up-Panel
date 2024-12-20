@@ -13,6 +13,7 @@ This project is my take on the [challenge created by Frontend Mentor](https://ww
 - Utilizing Figma file to plan
 
 ## Tools & Technologies
+- VSCode
 - HTML5
 - CSS3 (CSS Flexbox)
 - Vanilla Javascript
