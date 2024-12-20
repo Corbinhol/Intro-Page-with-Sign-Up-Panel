@@ -2,7 +2,7 @@
 ![Preview Of Webpage](./readme/full-page-preview.png)
 
 ## Overview
-This project is my take on the challenge created by Frontend Mentor. It tests my *HTML*, *CSS Flexbox*, and *responsive design skills* by turning a provided design into a functional, interactive intro page with a sign-up form. I also integrated basic *JavaScript* form validation and added feedback animations.
+This project is my take on the [challenge created by Frontend Mentor](https://www.frontendmentor.io/challenges/intro-component-with-signup-form-5cf91bd49edda32581d28fd1). It tests my *HTML*, *CSS Flexbox*, and *responsive design skills* by turning a provided design into a functional, interactive intro page with a sign-up form. I also integrated basic *JavaScript* form validation and added feedback animations.
 
 
 
@@ -36,12 +36,14 @@ I initially struggled with the mobile-first workflow, but the simpler design hel
 To improve accessibility, I moved the form input labels from inside the fields to above them. Instead of placeholders, I used example inputs. This helps screen readers interpret the form more effectively.
 
 Version that was displayed in their figma file:
+
 ![Image of what was on figma file](./readme/what-they-wanted.png)
 My Adjusted Version:
+
 ![What I made instead](./readme/What-I-Made.png)
 
 ## Acknowledgments
-The original project was built by Frontend Mentor, you can visit the project page here. Their templates provide a fantastic way to practice and improve web development skills.
+The original project was built by [Frontend Mentor](https://www.frontendmentor.io/home), you can visit the project page here. Their templates provide a fantastic way to practice and improve web development skills.
 
 ## Improvements I could make
 Running the webpage through an accessibility audit showed me that I should change the colors to make it WCAG Contrast Ratio Compliant. Additionally, I should work to improve the readability of the Hyperlinks on my page.
