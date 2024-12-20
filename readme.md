@@ -38,6 +38,7 @@ To improve accessibility, I moved the form input labels from inside the fields t
 Version that was displayed in their figma file:
 
 ![Image of what was on figma file](./readme/what-they-wanted.png)
+
 My Adjusted Version:
 
 ![What I made instead](./readme/What-I-Made.png)
